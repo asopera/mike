@@ -1,0 +1,135 @@
+
+
+
+
+*{
+margin: 0;  
+padding: 0;
+box-sizing: content-box;
+}
+body{
+  font-family: sans-serif;
+  background: url(/images//background_color.jpg);
+  background-size: cover;
+  background-repeat:no-repeat ;
+  height: 100vh;
+}
+
+.number{
+  width:90%;
+  margin:10% auto;
+  display: block;
+align-items: center;
+background-color: #fff;
+border-radius:25px ;
+max-width:350px ;
+justify-content: center;
+height:85%;
+}
+#dancer_img{
+width:100%;
+display: block;
+border-top-left-radius:30px;
+border-top-right-radius:30px ;
+height:171px;
+border-collapse: separate;
+overflow: hidden;
+box-sizing: border-box;
+flex-direction:column;
+}
+.layer{
+  padding:26px ;
+}
+
+.layer2{
+text-align: center;
+align-items: center;
+line-height:1.4rem ;
+
+
+}
+.layer2 p{
+ font-size:0.9rem ; 
+ margin-top:17px ;
+}
+.rectangle{
+  display: flex;
+background-color: #637e8618;
+text-align: center;
+border-radius: 20px;
+padding:23px;
+margin:12px 0;
+position: relative;
+
+}
+.payment h4{
+position: absolute;
+left:80px
+}
+.payment h3{
+font-size: 0.8rem;
+display: block;
+position: absolute;
+top:50px ;
+left: 80px;
+color: rgb(116, 116, 124);
+}
+
+
+.changes{
+position: absolute;
+right:30px;
+top:30px;
+}
+.text-box{
+  position:absolute;
+  top:140%;
+  left:25%;
+text-align: center;
+}
+.btn:link,
+.btn:visited{
+  text-decoration: none;
+display: inline-block;
+padding: 15px 40px;
+display: inline-block;
+position: relative;
+right:40px ;
+border-radius: 60px;
+transition: all .2s;
+
+}
+.btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 5px 10px rgba(45, 96, 192, 0.8);
+}
+.btn:active{
+  transform:translateY(-1px);
+}
+
+.btn-blue{
+background-color: blue;
+}
+.btn::after{
+  content:"";
+  display:inline-block;
+  height:100% ;
+  width:100%;
+  border-radius:60px; 
+  position: absolute;
+  top:0;
+  bottom:0;
+  z-index:-1;}
+
+  .order{               
+text-align: center;
+display: block;
+position: relative;
+top:160px;
+left:40px ;
+  }
+  
+  
+
+
+
